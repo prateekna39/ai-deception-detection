@@ -1,7 +1,4 @@
 
-# Dataset — keep DOLOS files local
-data/DOLOS/
-
 # Python
 __pycache__/
 *.py[cod]
@@ -12,13 +9,20 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Generated model files
+# Private/restricted DOLOS data
+data/DOLOS/*.xlsx
+data/DOLOS/*.csv
+data/DOLOS/*.txt
+data/DOLOS/Training_Protocols/
+
+# Generated model files (large)
 models/*.joblib
 models/*.pkl
+results/metrics/*.pth
 
-# Generated results
-results/figures/
-results/metrics/
+# Keep evaluation reports
+!results/metrics/baseline_metrics.json
+!results/metrics/classification_report.csv
 
 # OS files
 .DS_Store
