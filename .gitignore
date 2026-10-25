@@ -1,0 +1,25 @@
+
+# Dataset — keep DOLOS files local
+data/DOLOS/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated model files
+models/*.joblib
+models/*.pkl
+
+# Generated results
+results/figures/
+results/metrics/
+
+# OS files
+.DS_Store
+Thumbs.db
