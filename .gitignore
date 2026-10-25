@@ -6,23 +6,8 @@ __pycache__/
 venv/
 .env
 
-# Jupyter
+# Jupyter temporary files
 .ipynb_checkpoints/
-
-# Private/restricted DOLOS data
-data/DOLOS/*.xlsx
-data/DOLOS/*.csv
-data/DOLOS/*.txt
-data/DOLOS/Training_Protocols/
-
-# Generated model files (large)
-models/*.joblib
-models/*.pkl
-results/metrics/*.pth
-
-# Keep evaluation reports
-!results/metrics/baseline_metrics.json
-!results/metrics/classification_report.csv
 
 # OS files
 .DS_Store
